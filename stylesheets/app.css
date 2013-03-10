@@ -8,6 +8,183 @@
 :: Page Name 2
 */
 
+/*
+-----------------------------------------------
+	Typesetting
+	Author:   Benjamin Moody
+	Settings: http://modularscale.com/scale/?px1=14&px2=44&ra1=1.618&ra2=0
+	14px @ 1:1.618
+	44px @ 1:1.618 http://alistapart.com/articles/more-meaningful-typography/
+	
+	Useful Sites:
+		http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/
+		http://www.pearsonified.com/typography/
+		http://pxtoem.com/
+		http://reeddesign.co.uk/test/points-pixels.html
+		http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
+----------------------------------------------- */
+html { font-size: 87.5%; /* 14px :: 100% == 16px :: 62.5% == 10px*/ }
+
+body, div, button, input, select, textarea, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, aside p, blockquote, th, td {
+	font-size: 100%;
+	line-height: 17.5px; 
+	line-height: 1.250rem; /* 22.652px */ 
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+/* Global list items */
+ul {padding: 0px; margin:0px;}
+
+p, ul, ol, li, dl, dt, dd, blockquote, pre, td, th, label, address {
+	font-size: 14px; 
+	font-size: 1rem; /* 14px */
+	margin: 0 0 17.5px 0;
+	margin: 0 0 1.250rem 0; /* 17.5px */
+}
+
+p small {
+	font-size: 10.388px; 
+	font-size: 0.742rem; /* 10.388px */
+    font-style: inherit;
+    line-height: 16.807px; 
+	line-height: 1.201rem; /* 16.807px */
+}
+
+aside p, aside li {
+	color: #FFFFFF;
+	font-style: inherit;
+}
+
+h1 {
+	font-size: 36.651px;
+	font-size: 2.618rem; /* 36.651px */ 
+	line-height: 45.7px; /* 36.651px * 1.25 */ 
+	line-height: 3.264rem; /* 45.7px */ 
+	margin: 0 0 36.651px 0;
+	margin: 0 0 2.618rem 0; /* 36.651px */
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 27.194px;
+	font-size: 1.942rem; /* 27.194px */ 
+	line-height: 33.9px; /* 33.9px * 1.25 */ 
+	line-height: 2.421rem; /* 33.9px */ 
+	margin: 0 0 27.194px 0;
+	margin: 0 0 1.942rem 0; /* 27.194px */
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 22.652px;
+	font-size: 1.618rem; /* 22.652px */ 
+	line-height: 28.3px; /* 28.3px * 1.25 */ 
+	line-height: 2.021rem; /* 28.3px */ 
+	margin: 0 0 22.652px 0;
+	margin: 0 0 1.618rem 0; /* 22.652px */
+}
+
+h4 {
+	font-size: 16.807px;
+	font-size: 1.201rem; /* 16.807px */ 
+	line-height: 21px; /* 21px * 1.25 */ 
+	line-height: 1.5rem; /* 21px */ 
+	margin: 0 0 16.807px 0;
+	margin: 0 0 1.201rem 0; /* 16.807px */
+}
+
+h5 {
+	
+}
+
+h6 {
+	
+}
+
+/* Heading colours */
+h1 {color: #65b337;}
+
+/* Heading text transforms */
+
+/* Links */
+a, a:hover {
+    color: #ff7900;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+	color: #d36e00;
+}
+
+.widget a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+a.button {
+	text-decoration: none;
+}
+
+/* List Items */
+article ul {
+	margin-left: 30px;
+}
+
+article ul li {
+	list-style: circle;
+}
+
+article ol {
+	margin-left: 35px;
+}
+
+article ul li, article ol li {
+	margin: 0 0 7px 0;
+	margin: 0 0 0.5rem 0; /* 7px */
+}
+
+.widget ul {
+	margin-left: 0;
+}
+
+.textwidget ul {
+	margin-left: 14px;
+}
+
+.textwidget ul li {
+	list-style: circle;
+}
+
+.textwidget ol {
+	margin-left: 19px;
+}
+
+.textwidget ol li {
+	list-style: inherit;
+}
+
+/* Footer */
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {  }
+
+footer, .bottom-container  {  }
+	
+footer ol, ul { list-style: none; }
+
+footer p {
+	padding-right: 45px;
+}
+
+/* Heading custom classes */
+
+
+/* Navigation Typo */
+
+
+/* Other custom typo styles */
+
+
 
 /* -----------------------------------------
    Shared Styles
