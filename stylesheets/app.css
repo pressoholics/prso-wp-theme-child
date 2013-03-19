@@ -103,23 +103,21 @@ h6 {
 }
 
 /* Heading colours */
-h1 {color: #65b337;}
+h1 {}
 
 /* Heading text transforms */
 
 /* Links */
 a, a:hover {
-    color: #ff7900;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-	color: #d36e00;
+	
 }
 
 .widget a {
-	color: #FFFFFF;
 	text-decoration: underline;
 }
 
@@ -163,6 +161,10 @@ article ul li, article ol li {
 
 .textwidget ol li {
 	list-style: inherit;
+}
+
+form ul {
+	margin: 0;
 }
 
 /* Footer */
